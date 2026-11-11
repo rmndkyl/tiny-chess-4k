@@ -10,7 +10,7 @@ killer and history move ordering, quiescence with stand-pat, and a tapered
 piece-square evaluation. The engine is stored as an lzma payload unpacked at
 startup, so the whole thing fits in 4,096 bytes as committed.
 
-## Run it
+## Run it locally
 
 ```sh
 MAKEFUN_ENV_URL=http://127.0.0.1:8000 python main.py
